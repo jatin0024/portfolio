@@ -30,7 +30,7 @@ nav {
   }
   
 .logo{
-    width: 140px;
+    width: 100px;
 }
 
 nav ul li{
@@ -58,4 +58,25 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+
+
+.header-text-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+  }
+  
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%); /* Center the element */
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
 }
